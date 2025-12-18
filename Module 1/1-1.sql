@@ -8,7 +8,7 @@ ORDER BY firstname;
 SELECT firstname,lastname
 FROM classicmodels.employees
 WHERE officecode = 1
-ORDER BY firstname
+ORDER BY firstname;
 
 -- Select clause
 SELECT  productCode,
