@@ -1,4 +1,3 @@
-
 -- Select statement
 SELECT *
 FROM classicmodels.employees
@@ -11,7 +10,7 @@ FROM classicmodels.employees
 WHERE officecode = 1
 ORDER BY firstname
 
--- Select caluse
+-- Select clause
 SELECT  productCode,
 		productName,
         buyPrice,
