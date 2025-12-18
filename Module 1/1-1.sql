@@ -11,7 +11,7 @@ FROM classicmodels.employees
 WHERE officecode = 1
 ORDER BY firstname
 
--- Select caluse
+-- Select clause
 SELECT  productCode,
 		productName,
         buyPrice,
