@@ -1,4 +1,3 @@
-
 -- Select statement
 SELECT *
 FROM classicmodels.employees
