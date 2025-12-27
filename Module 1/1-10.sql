@@ -1,0 +1,10 @@
+-- LIMIT CLAUSE
+SELECT *
+FROM customers
+LIMIT 10,10;
+
+-- EXERCISE: TOP 5 CUSTOMERS WITH HIGHEST creditLimit.
+SELECT *
+FROM customers
+ORDER BY creditLimit
+LIMIT 5;
