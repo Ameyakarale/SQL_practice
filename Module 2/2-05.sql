@@ -8,7 +8,7 @@ FROM customers c
 LEFT JOIN orders o
 		ON c.customerNumber = o.customerNumber;
         
--- RIGHT JOIN(shows all recirds from the right/second table)
+-- RIGHT JOIN(shows all records from the right/second table)
 SELECT c.customerNumber, 
 		customerName,
         o.orderNumber
